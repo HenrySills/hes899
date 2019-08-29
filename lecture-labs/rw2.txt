@@ -1,0 +1,1 @@
+I got to step 9. I was unable to figure out what to do next. I tried running the line that Matt Hudson mentioned in Slack for SQL Shell but was unsuccessful.
