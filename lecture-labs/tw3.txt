@@ -1,0 +1,41 @@
+Who are the stakeholders?
+Who are the users?
+What are the system requirements?
+What are the functional requirements.
+
+1. The stakeholders include:
+	Photographers
+	Editor
+	Journalists
+	Owners of Newspaper
+	
+2. The users include:
+	Editors
+	Journalists
+	Any writer for the newspaper
+	Owners of Newspaper
+	
+3. System requirements
+	Storage/Disk Space
+	Camera
+	Web interface
+	Photo editing interface
+	News story interface for writing
+	
+4. Function Requirements
+	Photographers
+		- Must be able to upload images to database
+		- Able to access editing software
+	Editor
+		- Must be able to access database
+		- Able to download images
+		- Must be able to edit photos
+		- Able to use editing software
+	Journalists
+		- Must be able to access database
+		- Able to create content for images
+	Owners of Newspaper
+		- Access images
+		- Access softwares used in editing
+		- Not able to make changes to content
+	
