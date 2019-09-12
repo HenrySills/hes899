@@ -1,0 +1,18 @@
+# hes899
+# 14264662
+
+
+
+#Class Diagram
+##Activity: Login
+
+[classDiagram](https://github.com/ssample812/sespwd/blob/master/lecture-labs/rw4/ClassDiagram.jpg)
+
+
+#ER Diagram
+
+[erDiagram](https://github.com/averywald/ajw3p8/blob/master/lecture-labs/rw4/erDiagram.jpg)
+
+#Plan moving forward
+Each will do an activity diagram
+Separating last three diagrams
