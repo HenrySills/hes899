@@ -1,0 +1,4 @@
+#Thoughts on importance of ethics
+1. Intellectual property is very important since it is your work or someone else's that needs to be credited.  
+2. Honesty is also very important because if a developer is not honest with their work, they would be able to manipulate things based on their software that they were not honest about.
+3. Developers should be well aware of the people and things affected by their work. 
