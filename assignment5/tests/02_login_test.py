@@ -1,17 +1,31 @@
-import pytest
+import pytest 
 
-from codeToTest import login
-
-def login():
+def userSuccess():
+	username = "hes899"
+	return username
 	
-	user = userSuccess()
+def passSuccess():
+	password = "softEng"
+	return password
+
+def userFail():
+	username = "henry"
+	return username
+
+def passFail():
+	password = "wrong"
+	return password
+
+def test_login():	
+	username = userSuccess()
 	password = passSuccess()
-	assert user == 'hes899'
-	assert password == 'softEng'
+	assert username == "hes899"
+	assert password == "softEng"
 	
-def loginFail():
-
-	user = userFail()
+	
+def test_loginFail():
+	username = userFail()
 	password = passFail()
-	assert user == ''
-	assert password == 'wrong'
+	assert username == "hes899"
+	assert password == "softEng"
+	

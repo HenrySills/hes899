@@ -1,10 +1,15 @@
 import pytest
 
-from codeToTest import student
+studentList = ['Sarah', 'Mike', 'Tom', 'Matt']
 
+def addStudent(name):
+    if (name in studentList):
+        return False
+    else :
+        return True
 
-def addSuccess():
+def test_addSuccess():
 	assert addStudent('James')
 
-def addFail():
+def test_addFail():
 	assert addStudnet('Sarah')

@@ -1,16 +1,28 @@
 import pytest
 
-from codeToTest import upload
+def uploadSuccess(fileName, fileType):
+	file = False
+	if fileType == ".txt":
+		file = True
+		return file
 
-def uploadedSuccess():
+def uploadFail(fileName, fileType):
+	file = True
+	if fileType != ".txt":
+		file = False
+		return file
 
-	upload = upload.uploadSuccess('Assignment', '.txt')	
+
+
+def test_uploadedSuccess():
+
+	upload = uploadSuccess("Assignment", ".txt")	
 	
 	assert upload == True
 
 
-def uploadFailed():
+def test_uploadFailed():
 
-	upload = upload.uploadFail('Assignment' , '.jpg')
+	upload = uploadFail("Assignment" , ".jpg")
 	
-	assert upload == False
+	assert upload == True
