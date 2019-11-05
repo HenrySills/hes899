@@ -1,0 +1,43 @@
+# Assignment 8: Individual
+
+## Introduction
+- For this project we are to implement a system that analyzes and displays data from the augur system.
+  We will be using a web interface that allows users to select the information they want to see from 
+  the augur system. We first need to come up with requirements we see necessary for this system to work
+  
+## Software Product Overview
+- We will introduce a web interface that allows users to interact with the augur system
+
+## System Use
+- Users who wish to interfact with augur data would use this system. It will be an efficient
+  way to examine data from augur that they wish to see. 
+
+
+## System Requirements
+### Functional
+- Our system will need to load data from the augur system into our system
+- Web interface that is viewable on multiple platforms
+- Multiple pages for different data received from augur
+- Will need a server to host the web interface
+- Back-end coordination with front-end
+
+### Non-Functional
+- Clean user interface
+- Easy navigation
+- Clear directions for user to retrieve data
+- Clear depiction of data received from augur system
+
+## Use Cases
+- Separate Files
+
+## Interfaces
+- HTML, Javascript, CSS
+
+## Design Constraints
+- Clean web design for easy view of data
+- Graphics to show data
+- Easy navigation through data
+- Run application on multiple browsers
+
+## Purchased Components
+- Server to hold web application
